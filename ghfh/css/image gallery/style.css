@@ -1,0 +1,115 @@
+
+											
+*{box-sizing: border-box;}
+
+
+.rigt {float:left;
+		}
+
+
+.pic {width: 15%}
+.text {width: 15%}
+.background {width:100%}
+
+.full {width: 100%} 
+
+h1{font-size: 25px}
+br{clear:both;}
+
+
+a {text-decoration: none;
+	font-size: 250%;
+	}
+
+.product {width: 100%}
+.anh {width: 25%;
+	float: left;}
+
+.full {width: 100%}
+.loai {float: left;
+		width: 16%;}
+
+a: link {color: green;}
+a: hover {color: violet;}
+a: active {color:white;}
+a: visited {color:pink;}
+
+
+.anh:hover {border-radius: 50%
+			opacity: 0;
+			transition: 0.4s;
+    		transform: scale(1.2);}
+
+
+a:hover {color: rgb(59,229,229);
+		border-radius: 0;
+		transition: 0.1s;
+		transform: scale(1.2);}
+
+
+a {text-align: center}
+.loai {margin: auto;}
+.center {margin: auto;}
+
+
+
+#ava{position:absolute;
+	position: relative;
+		top:-80px;
+		left:12%;
+
+	border-radius: 50%;
+	border: solid;}
+
+
+#chat{position: fixed;
+		bottom: 20px;
+		right: 30px;
+
+		border-radius: 100%;}
+
+
+.ciao {width:  1200px;
+		height: 100px;
+		margin: auto;
+		background: rgb(170,255,255);}
+
+
+
+
+@keyframes wellcome {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+
+h1 {font-size: 100px;
+	text-align: center;
+	animation: wellcome 5s ease infinite;}
+
+
+
+
+.me{float: right;
+	margin-top: 0px;
+	margin-right: 150px;
+	margin-bottom: 150px;}
+
+
+@keyframes created {0% { padding: 5px 0px }
+					
+					100% {padding: 5px 100px}}
+
+
+
+p {animation: created 5s ease infinite;}
+
+
+
+
+
+
+

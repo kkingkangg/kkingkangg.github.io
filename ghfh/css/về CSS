@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>1 chút CSS</title>
+		<meta charset="tf-8" />
+	</head>
+	<body>
+	<p>ví dụ về inline style:</p>
+		<h1 style="color: gray;">Tổng quan về HTML</h1>
+
+		<h2 style="color: red;">Tổng quan về CSS</h2>
+	</body>
+	<head>
+		<title>1 chút </title>
+		<meta charset="tf-8" />
+
+		<style> h4 {color: green;} </style>
+		<style> h3 {color: blue;} </style>
+	</head>
+	<body>
+	<p>ví dụ về internal style:</p>
+		<h3>Tổng quan về bún riêu</h3>
+		<h4>Tổng quan về bún cua</h4>
+	</body>
+	</HTML>

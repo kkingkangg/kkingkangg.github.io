@@ -1,0 +1,18 @@
+
+ul {display: none;}
+
+.bún1 {		top: 0;
+		left: 50px;}
+
+.phở1 {
+		top: 20px;
+		left: 50px;}
+
+
+
+
+
+.bún:hover ul{display: block;}
+
+
+.phở:hover ul{display: block;}

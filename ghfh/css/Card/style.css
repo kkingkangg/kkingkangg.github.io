@@ -1,0 +1,18 @@
+
+
+.title{width: 600px;
+		height: 40px;
+		margin:auto;}
+
+
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+
+h1{text-align: center;
+	animation: title 5s ease infinite;}
