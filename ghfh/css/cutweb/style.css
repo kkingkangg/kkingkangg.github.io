@@ -1,0 +1,408 @@
+* {	box-sizing: border-box;
+}
+
+.main-menu {
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+
+.all {max-width: 1200px;
+		margin: auto;
+		position: relative;}
+
+h2 {color: white;
+	width: 15%;
+	height: 50px;
+	margin: 0;
+	padding-left: 24%;
+	padding-top: 13px;
+	 }
+h3 {color: white;
+	height: 50px;
+	margin: 0;
+	padding-left: 44px;
+	padding-top: 14px;}
+
+
+.left {float: left;}
+
+.main{width: 50%;
+		height: 100%;}
+
+.right {float:left;
+		margin: auto; }
+
+.pic {
+	width: 100%;
+	opacity: 0.8;
+}		
+
+
+.bg{
+	width: 100%;
+	position: relative;
+}
+
+.text-insize {
+	width: 35%;
+	position: absolute;
+	top: 17%;
+	left: 11%;
+}
+
+h1{
+	color: white;
+	width: 10%;
+	height: 10%;
+	font-size:300%;
+}
+
+.tiude {
+	font-size: 120%;
+	width: 100%;
+	color: white;
+
+}
+
+.gach {
+	width: 16%;
+	height: 1px;
+	background: white;
+}
+
+.thongdip {
+	font-size: 100%;
+	color: rgb(229,229,229 );
+	width: 100%;
+}
+
+
+.download {
+	padding: 7px 6px;
+	width: 100px;
+	height: 38px;
+	border: 2px solid;
+	border-color: white;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+
+
+
+.box-insize {
+	position: relative;
+	position: absolute;
+	top: 22%;
+	left: 66%;
+	width: 278px;
+	height: 304px;
+	background: white;
+	border-radius: 1%;
+}
+
+
+.yellow {
+	color: rgb(255,205,0);
+}
+
+
+
+.try {
+		display: block;
+		width: 100%;
+		height: 40px;
+		background: rgb(246,246,246);
+		margin: auto;
+		text-align: center;
+		padding-top:8px;
+		font-size: 20px;
+		border-top-right-radius: 2%;
+		border-top-left-radius: 2%;
+}
+
+
+.grey {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	color: rgb(204,204,204);
+	margin: 10px;
+}
+
+.ke {
+	width: 222px;
+	height: 1px;
+	margin: auto;
+	background: rgb(204,204,204);
+}
+
+.get-started {
+	width: 100%;
+	height: 50px;
+	background: #7f7f00;
+	text-align: center;
+	border-radius: 2%;
+	position: absolute;
+	bottom:0px;
+}
+
+.gs{
+	margin-top: 12px;
+	padding-top: 0px;
+	padding-bottom:0;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+.media{width: 100%;
+		height: 100px;
+		background: #e8e8e8;
+		position: absolute;
+		top:650px;
+		box-shadow:0px 2px 6px -2px rgba(0, 0, 0, 0.5)
+}
+
+
+.giua {
+		width: 30%;
+		height: 100%;
+		margin: auto;
+}
+
+
+.items {
+	float: left;
+	width: 25%;
+	height: 100%;
+	text-align: center;
+}
+
+
+.social {
+	height: 100%;
+	width: 30%;
+}
+
+.sm {
+	width: 100%;
+	height: 30%;
+	color: black;
+	margin-top: 13px;
+	margin-left: 36%;
+	margin-bottom: 0;
+	font-size: 130%;
+}
+
+
+.text-m {
+	width: 100%;
+	height: 47%;
+	margin-top: 0px;
+	margin-left: 36%;
+	margin-bottom: 0;
+}
+
+
+.icon {
+	width: 70%;
+	height: 100%
+}
+
+.trong {
+	float: left;
+	height: 100%;
+	width:15%;
+	
+}
+
+.icons {
+	float: left;
+	width: 14%;
+	margin: auto;
+	font-size: 400%;
+	padding-top: 1.5%;
+	text-align: center;
+	margin: auto;
+}
+
+
+.under {
+	width: 100%;
+	height: 1500px;
+	position: absolute;
+	top:752px;
+}
+
+.khu {
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.k1 {
+	background: #f4f4f4;
+}
+
+.box {
+	width: 112px;
+	height: 18%;
+	background: rgb(127,62,0);
+	position: absolute;
+	border-radius: 2%;
+}
+
+.nho1 {
+		top: 70px;
+		left: 11%;
+}
+
+.nho2 {
+		top: 161px;
+		left: 11%;
+}
+
+.nho3 {
+		top: 252px;
+		left: 11%;
+}
+
+.tab{
+	width: 50px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top:18px;
+	left: 36px;
+}
+
+.text-insize2{
+	width: 35%;
+	height: 200px;
+	position: absolute;
+	top: 14%;
+	left: 27%;
+}
+
+
+.tiude2 {
+	font-size: 120%;
+	width: 100%;
+
+}
+
+
+
+.thongdip2 {
+	font-size: 90%;
+	width: 100%;
+}
+
+.download2 {
+	padding: 8px 6px;
+	width: 100px;
+	height: 38px;
+	border: 1px solid;
+	border-color: black;
+	position: absolute;
+	text-align: center;
+}
+
+
+.pic-iz {
+	width: 38%;
+	height: 310px;
+	position: absolute;
+	top:0;
+	right: 0;
+
+}
+
+.npc{
+	width: 95%;
+	padding-top: 35px;
+}
+
+.k2{
+	background: white;
+	position: absolute;
+	top: 500px;
+	width: 100%;
+}
+
+
+.text-insize3{
+	width: 35%;
+	height: 200px;
+	position: absolute;
+	top: 14%;
+	left: 56%;
+}
+
+
+.pic-iz2{
+	position: absolute;
+	top: 18%;
+	left: 11%;
+	width: 35%;
+}
+
+.clouddownload {
+	color: orange;
+	}
+
+.tiude3{
+	font-size: 140%;
+}
+
+.gach2 {
+	width: 17%;
+	height: 2px;
+	background: orange;
+}
+
+
+.k3{
+	background: #f4f4f4;
+	position: absolute;
+	top: 1000px;
+	width: 100%;
+}
+
+.text-insize4{
+	width: 35%;
+	height: 200px;
+	position: absolute;
+	top: 14%;
+	left: 11%;
+}
+
+
+.pic-iz3{
+	position: absolute;
+	top: 18%;
+	left: 58%;
+	width: 35%;
+}
+
+
+.thongdip4 {
+	font-size: 100%;
+	width: 100%;
+	margin:0px 5px;
+}
+
+
+.clear{clear: both;}
+
+.fa-cloud-download-alt {
+	margin-bottom: 20px;
+}
+
+
+.shadow{
+	box-shadow:4px 4px 10px 0px rgba(0, 0, 0, 0.5)
+}
