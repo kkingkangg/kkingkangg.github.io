@@ -1,29 +1,32 @@
-* {	box-sizing: border-box;
-}
+* {	box-sizing: border-box;}
 
-.main-menu {
+.wrap-mn{
 	width: 100%;
-	height: 50px;
+	max-height: 50px;
 	background: black;
 }
 
-.all {max-width: 1200px;
-		margin: auto;
-		position: relative;}
+.main-menu {
+	max-width: 1200px;
+	height: 50px;
+	background: black;
+	margin: auto;
+}
 
-h2 {color: white;
-	width: 15%;
+
+.axit {color: white;
+	max-width: 64px;
 	height: 50px;
 	margin: 0;
-	padding-left: 24%;
-	padding-top: 13px;
+	padding-left: 0%;
+	padding-top: 2%;
 	 }
-h3 {color: white;
-	height: 50px;
-	margin: 0;
-	padding-left: 44px;
-	padding-top: 14px;}
 
+.mn-r {color: white;
+	height: 100%;
+	margin: 0;
+	padding-left: 34px;
+	padding-top: 14px;}
 
 .left {float: left;}
 
@@ -31,24 +34,31 @@ h3 {color: white;
 		height: 100%;}
 
 .right {float:left;
-		margin: auto; }
-
-.pic {
-	width: 100%;
-	opacity: 0.8;
-}		
+		margin: auto;
+		width: 16.6667%;
+		height: 100%;}
 
 
 .bg{
 	width: 100%;
+	url("../../img/bg7.jpg");
 	position: relative;
 }
+
+
+.pic {
+	width: 100%;
+	opacity: 0.8;
+}	
+
+
 
 .text-insize {
 	width: 35%;
 	position: absolute;
 	top: 17%;
-	left: 11%;
+	left: 13.55%;
+
 }
 
 h1{
@@ -58,7 +68,7 @@ h1{
 	font-size:300%;
 }
 
-.tiude {
+.slogan {
 	font-size: 120%;
 	width: 100%;
 	color: white;
@@ -71,7 +81,7 @@ h1{
 	background: white;
 }
 
-.thongdip {
+.mess {
 	font-size: 100%;
 	color: rgb(229,229,229 );
 	width: 100%;
@@ -95,9 +105,9 @@ h1{
 	position: relative;
 	position: absolute;
 	top: 22%;
-	left: 66%;
-	width: 278px;
-	height: 304px;
+	left: 69.45%;
+	width: 17%;
+	height: 36%;
 	background: white;
 	border-radius: 1%;
 }
@@ -112,27 +122,27 @@ h1{
 .try {
 		display: block;
 		width: 100%;
-		height: 40px;
+		height: 15%;
 		background: rgb(246,246,246);
 		margin: auto;
 		text-align: center;
-		padding-top:8px;
-		font-size: 20px;
+		padding-top:4%;
+		font-size: 120%;
 		border-top-right-radius: 2%;
 		border-top-left-radius: 2%;
 }
 
 
 .grey {
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 0px;
+	padding-left: 9%;
+	padding-top: 7%;
+	padding-bottom: 0;
 	color: rgb(204,204,204);
-	margin: 10px;
+	margin: 3%;
 }
 
 .ke {
-	width: 222px;
+	width: 80%;
 	height: 1px;
 	margin: auto;
 	background: rgb(204,204,204);
@@ -140,7 +150,7 @@ h1{
 
 .get-started {
 	width: 100%;
-	height: 50px;
+	height: 17%;
 	background: #7f7f00;
 	text-align: center;
 	border-radius: 2%;
@@ -149,22 +159,27 @@ h1{
 }
 
 .gs{
-	margin-top: 12px;
-	padding-top: 0px;
+	margin-top: 4%;
+	padding-top: 0;
 	padding-bottom:0;
 	color: white;
-	font-size: 20px;
+	font-size: 120%;
 }
 
 
+.wrap-sm {
+	width: 100%;
+	height: 100px;
+	background: #e8e8e8;
+	}
 
-.media{width: 100%;
+
+
+.media{max-width: 1200px;
 		height: 100px;
+		margin: auto;
 		background: #e8e8e8;
-		position: absolute;
-		top:650px;
-		box-shadow:0px 2px 6px -2px rgba(0, 0, 0, 0.5)
-}
+		}
 
 
 .giua {
@@ -189,40 +204,29 @@ h1{
 
 .sm {
 	width: 100%;
-	height: 30%;
+	height: 15%;
 	color: black;
-	margin-top: 13px;
-	margin-left: 36%;
-	margin-bottom: 0;
 	font-size: 130%;
+	margin: 16px 0px;
+
 }
 
 
 .text-m {
 	width: 100%;
-	height: 47%;
-	margin-top: 0px;
-	margin-left: 36%;
-	margin-bottom: 0;
+	height: 8%;
 }
 
 
-.icon {
-	width: 70%;
-	height: 100%
-}
-
-.trong {
-	float: left;
+.space{
+	width: 10%;
 	height: 100%;
-	width:15%;
 	
 }
 
 .icons {
 	float: left;
-	width: 14%;
-	margin: auto;
+	width: 10%;
 	font-size: 400%;
 	padding-top: 1.5%;
 	text-align: center;
@@ -230,65 +234,51 @@ h1{
 }
 
 
-.under {
-	width: 100%;
-	height: 1500px;
-	position: absolute;
-	top:752px;
-}
-
-.khu {
+.wrap-zone {
 	width: 100%;
 	height: 500px;
-	position: relative;
-}
-
-.k1 {
 	background: #f4f4f4;
 }
 
+.zone {
+	max-width: 1200px;
+	height: 500px;
+	margin: auto;
+	
+}
+
+.z1 {
+	background: #f4f4f4;
+}
+
+
+.bigbox{
+	width: 9%;
+	height: 60%;
+	margin-top: 5%	;
+}
+
 .box {
-	width: 112px;
-	height: 18%;
+	max-width: 100%;
+	height: 30%;
 	background: rgb(127,62,0);
-	position: absolute;
 	border-radius: 2%;
+	text-align: center;
+	margin-top:2px;
+	padding-top: 32px;
 }
 
-.nho1 {
-		top: 70px;
-		left: 11%;
-}
 
-.nho2 {
-		top: 161px;
-		left: 11%;
-}
-
-.nho3 {
-		top: 252px;
-		left: 11%;
-}
-
-.tab{
-	width: 50px;
-	height: 20px;
-	display: block;
-	position: absolute;
-	top:18px;
-	left: 36px;
-}
 
 .text-insize2{
-	width: 35%;
-	height: 200px;
-	position: absolute;
-	top: 14%;
-	left: 27%;
+	width: 40%;
+	height: 36%;
+	margin-left: 10%;
+	margin-top:5%;
 }
 
 
-.tiude2 {
+.slogan2 {
 	font-size: 120%;
 	width: 100%;
 
@@ -296,7 +286,7 @@ h1{
 
 
 
-.thongdip2 {
+.mess2 {
 	font-size: 90%;
 	width: 100%;
 }
@@ -307,54 +297,41 @@ h1{
 	height: 38px;
 	border: 1px solid;
 	border-color: black;
-	position: absolute;
 	text-align: center;
 }
 
 
 .pic-iz {
 	width: 38%;
-	height: 310px;
-	position: absolute;
-	top:0;
-	right: 0;
-
+	height: 69%;
+	margin-left: 3%;
+	margin-top: 2%;
 }
 
-.npc{
-	width: 95%;
-	padding-top: 35px;
-}
 
-.k2{
+.z2{
 	background: white;
-	position: absolute;
-	top: 500px;
-	width: 100%;
-}
+
+	}
 
 
 .text-insize3{
-	width: 35%;
-	height: 200px;
-	position: absolute;
-	top: 14%;
-	left: 56%;
-}
+	width: 50%;
+	height: 50%;
+	margin-top: 8%;
+	margin-left: 16%;
+	}
 
 
 .pic-iz2{
-	position: absolute;
-	top: 18%;
-	left: 11%;
-	width: 35%;
+	margin-top: 8%;
 }
 
 .clouddownload {
 	color: orange;
 	}
 
-.tiude3{
+.slogan3{
 	font-size: 140%;
 }
 
@@ -365,31 +342,25 @@ h1{
 }
 
 
-.k3{
+.z3{
 	background: #f4f4f4;
-	position: absolute;
-	top: 1000px;
-	width: 100%;
+	
 }
 
 .text-insize4{
-	width: 35%;
-	height: 200px;
-	position: absolute;
-	top: 14%;
-	left: 11%;
-}
+	width: 50%;
+	height: 50%;
+	margin-top: 8%;
+	}
 
 
 .pic-iz3{
-	position: absolute;
-	top: 18%;
-	left: 58%;
-	width: 35%;
+	margin-top: 8%;
+	margin-left: 16%;
 }
 
 
-.thongdip4 {
+.mess5 {
 	font-size: 100%;
 	width: 100%;
 	margin:0px 5px;
@@ -404,5 +375,6 @@ h1{
 
 
 .shadow{
+	width: 100%;
 	box-shadow:4px 4px 10px 0px rgba(0, 0, 0, 0.5)
 }

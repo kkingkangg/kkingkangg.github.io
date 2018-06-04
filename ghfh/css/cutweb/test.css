@@ -1,0 +1,22 @@
+
+.tổng {
+	width: 100%;
+}
+
+.wrap-pic{
+	width: 100%;
+	position: relative;
+}
+
+.pic {
+	width: 100%;
+}
+
+.insize{
+	max-width: 1200px;
+	height: 1000px;
+	background: pink;
+	margin:auto;
+	position: absolute;
+}
+
