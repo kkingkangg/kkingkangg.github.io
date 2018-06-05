@@ -11,7 +11,7 @@ a:active {color:red;}*/
 #youko:hover {opacity: 0.1;
 				transition: opacity 2s;}
 
-#kuro:hover {width: 100%;
+#kuro:hover {width: 20%;
 				transition: width 2.2s;}
 
 #shiro:hover {transform: translate(10px, -10px);
