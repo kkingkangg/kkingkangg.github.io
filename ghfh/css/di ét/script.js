@@ -1,25 +1,27 @@
 
-alert('bạn đã bị hack')
+
+
+
+
 
 
 //bài 1
-function bai1(x) {
-	alert(x*x);
+function func1(x) {
 	return (x**2);
 }
 
 
 
 //bài 2
-function bai2(a,b,c) {
+function func2(a,b,c) {
 	let x=3*a+2*b-c;
-	return bai1(x);
+	return func1(x);
 }
 
 
 //bài 3
-function bai3(str) {
-  return str.length > 10 ? str.substring(0, 10) + '...' : str;
+function func3(str) {
+  return str.substring(0, 10) + '...';
 }
 
 
@@ -28,44 +30,70 @@ function bai3(str) {
 
 
 //bài 4
-function bai4(string) {
+function func4(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
 }
 
 
 
 //bài 5
-function bai5(a,b,c,d) {
-	return Math.min(a,b,c,d);
+function func5(number) {
+	return Math.min.apply(null,number);
 }
 
 
 
 //bài 6
-function bai6() {
+function bai6(arr) {
+	//sắp xếp
+	arr.sort(function(a,b){
+		return a.localeCompare(b);
+	});
+	console.log('arr :', arr);
 
+	//in từng phần tử ra màn hình
+
+	for (let i=0; i<arr.length; i++){
+		document.write("phan tu "+ (i+1)+" la: "+arr[i]);
+	}
 }
+
+
+
+
+function bai6nguoc(arr) {
+	return arr.reverse();
+}
+
+
 
 
 
 //bài 7
 
-var fruits = ["Banana", "Orange", "Apple", "Mango"];
-document.getElementById("demo").innerHTML = fruits;
 
-function myFunction() {
-    fruits.sort();
-    fruits.reverse();
-    document.getElementById("demo").innerHTML = fruits;
+
+
+
+
+//vòng lặp
+
+//vl1
+
+
+function vl1(a){
+	let giaithua = 1;
+	for (var i = 1; i <=a; i++) {
+		giaithua = giaithua * i;
+	}
+	return giaithua;
 }
 
 
 
 
-
-
-
-
-
-
-
+//vl2
+function vl2(arr){
+	return arr.reverse();
+}
+	
