@@ -1,0 +1,314 @@
+* { box-sizing: border-box; }
+
+.large {
+	width: 600px;
+	height: 600px;
+	border: 1px solid;
+	border-radius: 50%;
+	margin: auto;
+	position: relative;
+	background: rgb(191,191,0);
+}
+
+
+
+
+.hour {
+	font-size: 220%;
+}
+
+
+.nan {
+	width: 2px;
+	height: 24px;
+	background: black;
+}
+
+
+
+.medium {
+	width: 500px;
+	height: 500px;
+	border: 1px solid;
+	border-radius: 50%;
+	margin: auto;
+	background: #005fbf;
+	position: absolute;
+	top: 8%;
+	left: 8%;
+}
+
+
+.one {
+	position: absolute;
+	top: 8%;
+	left: 73%;
+	-webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.two{
+	position: absolute;
+	top: 25%;
+	left: 90%;
+	-webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+
+.three{
+	position: absolute;
+	top:46%;
+	left: 95%;	
+}
+
+
+.four{
+	position: absolute;
+	top:71%;
+	left: 90%;	
+	-webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+
+.five{
+	position: absolute;
+	top:88%;
+	left: 73%;
+	-webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+
+.six{
+	position: absolute;
+	top:93%;
+	left: 48%;	
+}
+
+.seven{
+	position: absolute;
+	top:88%;
+	left: 27%;	
+	-webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+}
+
+.eight{
+	position: absolute;
+	top:71%;
+	left: 10%;
+	-webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+}
+
+
+.nine{
+	position: absolute;
+	top:46%;
+	left: 3%;	
+}
+
+.ten {
+	position: absolute;
+	top:25%;
+	left: 10%;	
+	-webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+}
+
+.eleven{
+	position: absolute;
+	top: 8%;
+	left: 27%;
+	-webkit-transform: rotate(330deg);
+          transform: rotate(330deg);
+}
+
+
+.twelve{
+	position: absolute;
+	top: 1%;
+	left: 47%;	
+}
+
+
+.kim {
+	width: 1px;
+	height: 500px;
+	margin: auto;
+	background: white;
+}
+
+.gio {
+	position: absolute;
+	height: 180px;
+	width: 3px;
+	top: 41.5%;
+	left: 62%;
+	transform: rotate(127.5deg);
+
+}
+.minute {
+	position: absolute;
+	height: 240px;
+	width: 2px;
+	top: 26%;
+	left: 69%;
+	transform: rotate(90deg);
+}
+
+.second{
+	position: absolute;
+	height: 286px;
+	width: 1px;
+	top: 0%;
+	left: 50%;
+	transform: rotate(0deg);
+}
+
+
+.small {
+	background: white;
+	width: 80px;
+	height: 80px;
+	border: 1px solid;
+	border-radius: 50%;
+}
+
+
+.nho{
+	font-size: 80%;
+}
+
+
+.nan2 {
+	width: 1px;
+	height: 5px;
+	background: black;
+}
+
+.three2{
+	position: absolute;
+	top: 42%;
+	right: 3%;	
+}
+
+.six2{
+	position: absolute;
+	bottom: 0%;
+	left: 46%;	
+}
+
+.nine2{
+	position: absolute;
+	top: 42%;
+	left: 3%;	
+}
+
+.twelve2{
+	position: absolute;
+	top: 0%;
+	left: 42%;	
+}
+
+.xs {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border:1px solid;
+	position: absolute;
+	top: 18%;
+	left: 18%;
+	background: pink;
+}
+
+.gio2{
+	background: white;
+	position: absolute;
+	height: 18px;
+	width: 1px;
+	top: 46%;
+	left: 55%;
+	transform: rotate(335deg);
+}
+
+.phut2{
+	background: white;
+	position: absolute;
+	height: 24px;
+	width: 1px;
+	top: 25.5%;
+	left: 70%;
+	transform: rotate(90deg);
+}
+
+.text {
+	font-size: 60%;
+	color:white;
+	position: absolute;
+	top:16%;
+	left: 35%;
+}
+
+.eng {
+	position: absolute;
+	top: 22%;
+	left: 63%;
+}
+
+.ita {
+	position: absolute;
+	top: 22%;
+	left: 21%;
+}
+
+
+.usa {
+	position: absolute;
+	top: 66%;
+	left: 44%;
+}
+
+
+
+.gio3{
+	background: white;
+	position: absolute;
+	height: 18px;
+	width: 1px;
+	top: 31%;
+	left: 30%;
+	transform: rotate(455deg);
+}
+
+.phut3{
+	background: white;
+	position: absolute;
+	height: 24px;
+	width: 1px;
+	top: 4.5%;
+	left: 59%;
+	transform: rotate(30deg);
+}
+
+.gio4{
+	background: white;
+	position: absolute;
+	height: 18px;
+	width: 1px;
+	top: 46%;
+	left: 39%;
+	transform: rotate(390deg);
+}
+
+.phut4{
+	background: white;
+	position: absolute;
+	height: 24px;
+	width: 1px;
+	top: 25.5%;
+	left: 70%;
+	transform: rotate(90deg);
+}
