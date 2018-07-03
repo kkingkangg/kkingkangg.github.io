@@ -255,3 +255,121 @@ function giaiThua(a) {
 
 //dk, rẽ nhánh phần 2
 
+
+//bài 1
+var now = new Date();   // Lấy thời gian hiện tại
+var date = now.getDate(2);   // Lấy ngày từ thời gian hiện tại
+var month = now.getMonth(6) + 1;   // Lấy tháng từ thời gian hiện tại. Do tháng trong javascript tính từ 0 - 11 nên phải +1
+var year = now.getFullYear(2018);   // Lấy năm (đầy đủ 4 số) từ thời gian hiện tại
+
+
+
+//bài 2
+
+function condition2 (str) {
+    console.log(typeof str);
+    if (typeof str == 'string' && str.length < 10) {
+
+
+        return (str);
+        } else if (typeof str == 'string' && str.length >= 10) {
+
+
+            return (str.slice(0,10) + '...');
+            } else if (typeof str == 'number') {
+                str = str.toString();
+                if(str.length>=10){
+                    return (str.slice(0,10) + '...');
+                    
+
+                }else {
+                    return str;
+                }
+
+            } else {
+                    return "khong phai string or number";
+                }
+
+    }
+
+// bài 3
+function diem(a) {
+    if (typeof a == 'number' && a >= 0 && a <= 10) {
+        if (a >= 0 && a <= 3.9) {
+            return 'Điểm F';
+            } else if (a >= 4 && a <= 5.4) {
+                return 'Điểm D';
+                } else if (a >= 5.5 && a <= 6.9) {
+                    return 'Điểm C';
+                    } else if (a >= 7 && a <= 8.4) {
+                        return 'Điểm B';
+                        } else {
+                            return 'Điểm A';
+                            }
+        } else {
+            return 'Điểm nhập vào ko đúng'
+            }
+
+}
+
+
+//bài 4
+function translate(a) {
+
+    switch (a) {    
+        case 'VN':
+            return ('Xin Chào');
+            
+
+        case 'China':
+            return ('你 好');
+            
+
+        case 'Japan':
+            return ('こんにちは');
+            
+
+        case 'Korea':
+            return ('안녕하세요');
+            
+
+        case 'Eng':
+            return ('Hello');
+            
+
+        case 'Italy':
+            return ('Ciao');
+            
+            }
+
+}
+
+
+
+
+
+//bai 5
+function bai5 (arr) {
+    for (var i = 0; i < arr.length; i++) {
+     
+    if (arr[i] == 'true') {
+        var a = i+1;
+        console.log('Giá trị true xuất hiện lần đầu trong mảng ở vị trí là: ' + a);
+        break;
+    }
+}
+
+}
+
+
+
+
+
+//bai6 
+function bai6 () {
+    for (let i = 1; i <= 100; i++) {
+        console.log('%c' + i, color: ${i % 2 === 0 ? 'red' : 'blue'});
+      }
+    
+  }
+
