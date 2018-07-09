@@ -449,47 +449,7 @@ function tamGiac(n) {
 
 
 // bài tập về nhà
-//bài 1 ?????????????????????
-function refrClock() {
-
-    var d = new Date();
-
-    var s = d.getSeconds();
-
-    var m = d.getMinutes();
-
-    var h = d.getHours();
-
-    var day = d.getDay();
-
-    var date = d.getDate();
-
-    var month = d.getMonth();
-
-    var year = d.getFullYear();
-
-    var days = new Array("Chủ nhật", "Thứ hai", "Thứ 3", "Thứ 4", "Thứ 5", "Thứ 6", "Thứ 7");
-
-    var months = new Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"); var am_pm;
-
-    if (s < 10) { s = "0" + s }
-
-    if (m < 10) { m = "0" + m }
-
-    if (h > 12) { h -= 12; AM_PM = "PM" }
-
-    else { AM_PM = "AM" }
-
-    if (h < 10) { h = "0" + h }
-
-    document.getElementById("clock").innerHTML = days[day] + " Ngày " + date + "/" + months[month] + "/" + year + " Bây giờ là " + " [" + h + ":" + m + ":" + s + "] " + AM_PM; setTimeout("refrClock()", 1000);
-}
-
-
-
-
-
-//test bai1
+//bai1
 
 var d = new Date();
 var day = d.getDay();
@@ -500,8 +460,43 @@ var m = d.getMinutes();
 var h = d.getHours();
 
 
-function bai1 (ngay) {
-    return ('Today is: ' + day + ' | Current time is ' + h + ' : ' + m + ' : ' + s); 
+function ngayHT(day) {
+    switch (day) {
+        case 0:
+            return ('Sunday');
+        
+        case 1:
+            return ('Monday');
+
+        case 2:
+            return ('Tuesday');
+
+        case 3:
+            return ('Wednesday');
+
+        case 4:
+            return ('Thursday');
+
+        case 5:
+            return ('Friday');
+
+        case 6:
+            return ('Saturday');
+    }
+}
+
+function gioHT (h) {
+    if (h<12) {
+        return h + 'AM';
+    } else if (h==12) {
+        return h +'PM';
+    } else {
+        return h-12 + 'PM'
+    }
+}
+
+function btvn1 () {
+    return ('Today is: ' + ngayHT(day) + ' | Current time is ' + gioHT(h) + ':' + m + ':' + s); 
     }
 
 
@@ -511,6 +506,27 @@ function bai1 (ngay) {
 
 
 
+//2 - Viết một function tính số ngày còn lại để đến ngày 2/9/2018. VD hôm nay là 31/8 thì còn 2 ngày, 1/9 thì còn 1 ngày
+//bai 2
+function btvn2 (day, month) {
+	const ngayHienTai = new Date();
+	let ngayHT = ngayHienTai.getDate();
+	let thangHT = ngayHienTai.getMonth() +1;
+	let namHT = ngayHienTai.getFullYear();
+
+	if (thangHT >= month && ngayHT > day) {
+		namHT +=1;
+		console.log('namHT :', namHT);
+
+	}
+	const ngayTiepTheo = new Date (namHT, month-1; day);
+	console.log ('ngayTiepTheo :', ngayTiepTheo);
+	const soMiliGiayTrongNgay = 24*60*60*1000;
+	const tongThoiGianHT = ngayHienTai.getTime();
+	const tongThoiGianNgayTiepTheo = ngayTiepTheo.getTime();
+
+	return Math.cell((tongThoiGianNgayTiepTheo - tongThoiGianHT)/soMiliGiayTrongNgay);
+}
 
 
 
@@ -520,7 +536,7 @@ function bai1 (ngay) {
 
 
 //bài 3 - Viết function khi truyền vào 2 số ra được kết quả nhân và chia 2 số đó. Ví dụ truyền 2 số (3,4) trả về phép nhân là 12 phép chia là 0.75
-function bai3(a, b) {
+function btvn3(a, b) {
     if (typeof a == 'number' && typeof b == 'number') {
         let c = a * b;
         let d = a / b;
@@ -538,7 +554,7 @@ function bai3(a, b) {
 
 
 //BTVN 4 Viết function chuyển đổi nhiệt độ từ độC sang nhiệt độ Celsius, độ F (công thức search trên mạng)
-function bai4(c) {
+function btvn4(c) {
     if (typeof c == 'number') {
         let a = c * 1.8;
         let f = a + 32;
@@ -553,7 +569,7 @@ function bai4(c) {
 
 
 //BTVN 5 Viết một function truyền vào 2 số trả về tổng 2 số đó, nếu 2 số bằng nhau thì trả về 3 lần tổng 2 số đó. ví dụ (2,2) kết quả 12
-function bai5(a, b) {
+function btvn5(a, b) {
     if (typeof a == 'number' && typeof b == 'number') {
         let c = a + b;
         if (a == b) {
@@ -578,7 +594,7 @@ function bai5(a, b) {
 //BTVN 6 
 //Viết một function đảo ngược số ví dụ 123 thành 321. Đầu vào đầu ra phải là số
 
-function bai6(a) {
+function btvn6(a) {
     if (typeof a != 'number') {
         return 'ko phải là số';
     } else {
